@@ -1,0 +1,89 @@
+📊 OLIST BRAZILIAN E-COMMERCE DATA ANALYSIS PROJECT
+
+------------------------------------------------------------
+📌 PROJECT OVERVIEW
+------------------------------------------------------------
+This project is an end-to-end data analytics case study on the Olist Brazilian E-Commerce dataset. The goal is to analyze customer behavior, sales trends, delivery performance, and product/category insights using Python, PostgreSQL, and Power BI.
+
+The project follows a complete data analytics workflow including data cleaning, exploratory data analysis (EDA), SQL-based analysis, and dashboard creation.
+
+------------------------------------------------------------
+🧰 TECH STACK
+------------------------------------------------------------
+- Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
+- PostgreSQL (Data storage and SQL analysis)
+- Power BI (Dashboard and visualization)
+- Jupyter Notebook
+
+------------------------------------------------------------
+📂 PROJECT WORKFLOW
+------------------------------------------------------------
+
+1. Data Cleaning & Preprocessing (Python)
+- Handled missing values
+- Removed duplicates
+- Standardized column formats
+- Merged multiple Olist datasets into a single structured dataset
+
+2. Exploratory Data Analysis (EDA)
+- Sales trends over time
+- Customer distribution across Brazil
+- Product category analysis
+- Revenue and order patterns
+- Delivery time analysis
+
+3. SQL Analysis (PostgreSQL)
+- Created relational schema
+- Loaded cleaned data into database
+- Wrote SQL queries for business insights such as:
+  • Monthly revenue trends
+  • Top-selling product categories
+  • Delivery time vs review score analysis
+  • Customer state-wise distribution
+
+4. Power BI Dashboard
+- Built interactive dashboard with KPIs
+- Revenue and sales trend visualization
+- Customer and geographic analysis
+- Product category performance
+- Delivery performance insights
+
+------------------------------------------------------------
+📊 KEY INSIGHTS
+------------------------------------------------------------
+- A small number of product categories contribute most of the revenue
+- Delivery delays negatively impact customer review scores
+- Certain Brazilian states dominate order volume
+- Clear seasonal trends observed in sales patterns
+- Payment methods vary significantly across customer segments
+
+------------------------------------------------------------
+⚙️ REQUIREMENTS
+------------------------------------------------------------
+To run this project, install the following Python libraries:
+
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+sqlalchemy
+psycopg2
+
+You can install them using:
+pip install -r requirements.txt
+OR manually install each library using pip.
+
+------------------------------------------------------------
+🚀 HOW TO RUN
+------------------------------------------------------------
+1. Clone the repository
+2. Install required Python packages
+3. Open Jupyter Notebook and run analysis files
+4. Import SQL scripts into PostgreSQL
+5. Open Power BI file to view dashboard
+
+------------------------------------------------------------
+👤 AUTHOR
+------------------------------------------------------------
+Prince Kaushik 
